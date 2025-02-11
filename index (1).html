@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Remover Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Background Remover Tool</h1>
+            <p>Remove image background instantly with just a few clicks.</p>
+        </header>
+        <section class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*" />
+            <label for="imageUpload" class="upload-label">Upload an image</label>
+        </section>
+        <div class="image-preview-section" id="imageContainer">
+            <h3>Preview</h3>
+            <img id="uploadedImage" src="" alt="Uploaded Image" />
+        </div>
+        <button id="removeBackground" class="remove-btn">Remove Background</button>
+        <div id="resultContainer" class="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
